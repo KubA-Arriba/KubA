@@ -9,14 +9,15 @@ body {
 
 /* Шапка сайта */
 header {
-    background: #222;
+    background: #d40000; /* Красный */
     color: white;
     text-align: center;
     padding: 20px;
 }
 
+/* Навигация */
 nav {
-    background: #444;
+    background: #222; /* Черный */
     text-align: center;
     padding: 10px;
 }
@@ -26,11 +27,13 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     padding: 10px;
+    font-weight: bold;
 }
 
 nav a:hover {
-    background: #555;
+    background: #d40000; /* Красный */
     padding: 10px;
+    border-radius: 5px;
 }
 
 /* Контент */
@@ -50,21 +53,22 @@ section {
 
 /* Кнопка */
 button {
-    background: #28a745;
+    background: #d40000; /* Красный */
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 button:hover {
-    background: #218838;
+    background: #a00000; /* Темно-красный */
 }
 
 /* Футер */
 footer {
-    background: #222;
+    background: #222; /* Черный */
     color: white;
     text-align: center;
     padding: 15px;
